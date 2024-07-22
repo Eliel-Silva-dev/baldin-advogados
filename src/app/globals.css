@@ -22,6 +22,11 @@ main {
   margin-top: 60px;
   padding: 15px;
 }
+h1,
+h2,
+h3 {
+  color: var(--secondary_color);
+}
 a {
   text-decoration: none;
   color: var(--text_color);

@@ -1,3 +1,7 @@
+#main_Home {
+  border: 1px solid red;
+}
 #main_Home h2 {
   font-size: 3rem;
+  color: var(--secondary_color);
 }
