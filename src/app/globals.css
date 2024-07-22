@@ -9,7 +9,7 @@ html {
 :root {
   --primary_color: #f7f9fa;
   --secondary_color: #142e4a;
-  --text_color: #030f27;
+  --text_color: #7b7f84;
   --hover: #c09560;
   --bg_card: #ffffff;
 }
@@ -20,6 +20,7 @@ body {
 main {
   min-height: 100vh;
   margin-top: 60px;
+  padding: 15px;
 }
 a {
   text-decoration: none;
