@@ -16,6 +16,12 @@
     #atuacao {
       position: relative;
 
+      a {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+      }
+
       #atuacao_container {
         position: absolute;
         top: 25px;
