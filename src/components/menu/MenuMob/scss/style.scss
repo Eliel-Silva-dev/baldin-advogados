@@ -1,8 +1,8 @@
-.menu_mob {
+#menu_mob {
   display: none;
 }
 @media screen and (max-width: 769px) {
-  .menu_mob {
+  #menu_mob {
     width: 100%;
     display: flex;
     justify-content: right;
@@ -43,12 +43,14 @@
       transition: all 0.3s;
       z-index: 4;
       border-bottom: 1px solid var(--hover);
+      padding: 10px;
+      background-color: var(--bg_card);
 
       top: 45px;
-      right: -150px;
+      right: -100%;
 
       li {
-        background-color: var(--primary_color);
+        background-color: var(--bg_card);
       }
       #plus {
         a {
@@ -95,6 +97,45 @@
 
     .container_hamburguer.active ~ .masc {
       display: block;
+    }
+
+    #atuacao {
+      p {
+        font-size: 1.7rem;
+        cursor: pointer;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        margin-bottom: 5px;
+
+        &:hover{
+          color: var(--secondary_color);
+        }
+
+        &.pActive ~ #atuacao_container {
+          display: block;
+        }
+
+      }
+
+      #atuacao_container {
+        text-align: center;
+        padding: 10px;
+        background-color: var(--bg_card);
+        border-radius: 5px;
+        display: none;
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          a {
+            padding: 10px;
+          }
+        }
+      }
     }
   }
 }

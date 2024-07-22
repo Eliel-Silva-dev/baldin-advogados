@@ -1,8 +1,9 @@
-.menu_desk {
+#menu_desk {
   display: none;
 }
+
 @media screen and (min-width: 769px) {
-  .menu_desk {
+  #menu_desk {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -11,6 +12,37 @@
       padding: 5px;
       font-size: 1.7rem;
       font-weight: 600;
+    }
+    #atuacao {
+      position: relative;
+
+      #atuacao_container {
+        position: absolute;
+        top: 25px;
+        right: 0;
+        text-align: center;
+        display: none;
+        padding: 10px;
+        background-color: #ffffff;
+        border-radius: 5px;
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          a {
+            padding: 10px;
+
+          }
+        }
+      }
+
+      &:hover {
+        #atuacao_container{
+          display: block;
+        }
+      }
     }
   }
 }

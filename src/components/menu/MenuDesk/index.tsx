@@ -1,10 +1,11 @@
+import { FaArrowDownShortWide } from 'react-icons/fa6';
 import style from './style.min.module.css';
 
 import Link from 'next/link';
 
 const MenuDesk = () => {
   return (
-    <ul className={style.menu_desk}>
+    <ul id={style.menu_desk}>
       <li>
         <Link href={'/'}>Inicio</Link>
       </li>
@@ -12,23 +13,24 @@ const MenuDesk = () => {
         <Link href={'/about'}>Sobre</Link>
       </li>
       <li id={style.atuacao}>
-        <Link href={'/'}>Areas de Atuação</Link>
+        <Link href={'/'}>Areas de Atuação<FaArrowDownShortWide /></Link>
         <div id={style.atuacao_container}>
           <ul>
             <li>
               <Link href={'/compliance'}>Compliance</Link>
             </li>
             <li>
-              <Link href={'/empresarial'}>Empresarial</Link>
+
+              <Link href={'/business'}>Empresarial</Link>
             </li>
             <li>
-              <Link href={'/imobiliario'}>Imobiliário</Link>
+              <Link href={'/realstate'}>Imobiliário</Link>
             </li>
             <li>
-              <Link href={'/tributario'}>Tributário</Link>
+              <Link href={'/tax'}>Tributário</Link>
             </li>
             <li>
-              <Link href={'/trabalhista'}>Trabalhista</Link>
+              <Link href={'/labor'}>Trabalhista</Link>
             </li>
           </ul>
         </div>

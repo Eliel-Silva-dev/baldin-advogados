@@ -1,4 +1,4 @@
-import style from './style.mn.module.css';
+import style from './style.min.module.css';
 
 const RealState = () => {
   return (
