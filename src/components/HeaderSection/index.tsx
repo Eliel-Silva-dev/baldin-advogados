@@ -1,14 +1,18 @@
 import style from './style.min.module.css';
 
 type Theader = {
-  children: React.ReactNode;
+  title: string;
+  message: string;
 };
 
-const HeaderSection = ({ children }: Theader) => {
+const HeaderSection = ({ title, message }: Theader) => {
   return (
-    <div id={style.headerSection}>
-      <h2 className={style.contactTitle}>{children}</h2>
-    </div>
+    <header id={style.headerSection}>
+      <div>
+        <h2 className={style.headerContent}>{title}</h2>
+        <p className={style.headerContent}>{message}</p>
+      </div>
+    </header>
   );
 };
 
