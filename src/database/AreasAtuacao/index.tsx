@@ -1,7 +1,6 @@
 const business = {
   title: 'EMPRESARIAL/SOCIETÁRIO',
   imgCard: '/img/imgCardBusiness',
-  imgAbout: '/img/imgAboutBusiness',
   subAreas: [
     'Recuperação de ativos',
     'Reestruturação de passivos',
@@ -53,7 +52,6 @@ const business = {
 const compliance = {
   title: 'Compliance',
   imgCard: '/img/imgCardComoliance',
-  imgAbout: '/img/imgAboutComoliance',
   subAreas: [
     'Desenvolvimento de regulamentos',
     'Políticas anticorrupção',
@@ -72,7 +70,6 @@ const compliance = {
 const labor = {
   title: 'TRABALHISTA',
   imgCard: '/img/imgCardLabor',
-  imgAbout: '/img/imgAboutLabor',
   subAreas: [
     'Consultivo',
     'Contencioso',
@@ -106,7 +103,6 @@ const labor = {
 const realState = {
   title: 'IMOBILIÁRIO',
   imgCard: '/img/imgCardRealState',
-  imgAbout: '/img/imgAboutRealState',
   subAreas: ['Consultivo', 'Contencioso'],
   infoSub: [
     {
@@ -127,7 +123,6 @@ const realState = {
 const tax = {
   title: 'TRIBUTÁRIO',
   imgCard: '/img/imgCardTax',
-  imgAbout: '/img/imgAboutTax',
   subAreas: [
     'Reestruturação tributária',
     'Consultas tributárias',
@@ -168,7 +163,6 @@ const tax = {
 const civilLitigation = {
   title: 'Contencioso Cível',
   imgCard: '/img/imgCardCivilLitigation',
-  imgAbout: '/img/imgAboutCivilLitigation',
   subAreas: ['Consumidor', 'Responsabilidade civil', 'Contratos em geral'],
   infoSub: [
     {
