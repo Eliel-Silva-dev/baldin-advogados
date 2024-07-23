@@ -7,7 +7,7 @@ import FormContact from '@/components/FormContact';
 const Contact = () => {
   return (
     <>
-      <HeaderDiv title="Contact" />
+      <HeaderDiv title="Contato" />
       <main id={style.main_Contact}>
         <section className={style.contact_address}>
           <div>
@@ -28,18 +28,19 @@ const Contact = () => {
             </p>
           </div>
           <div>
-            <h3>Telefone</h3>
+            <h3>Telefone:</h3>
             <p>
               <span>+55 19 3291.6417</span>
             </p>
           </div>
           <div>
-            <h3>E-mail</h3>
+            <h3>E-mail:</h3>
             <p>
               <span>contato@baldinadv.com.br</span>
             </p>
           </div>
         </section>
+
         <FormContact />
       </main>
     </>

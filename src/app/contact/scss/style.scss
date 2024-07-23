@@ -1,6 +1,38 @@
 #main_Contact {
-  h2 {
-    
-    font-size: 3rem;
+  background-color: var(--secondary_color);
+  background-image: url('/img/imgContact.jpg');
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+  .contact_address {
+    border: 1px solid var(--hover);
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    height: 600px;
+    padding: 10px;
+    background-color: var(--bg_card);
+    border-radius: 10px;
+    margin-top: 10px;
+
+    h2 {
+      font-size: 3rem;
+    }
+    h3 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.7rem;
+    }
+    span {
+      color: var(--hover);
+    }
   }
 }
