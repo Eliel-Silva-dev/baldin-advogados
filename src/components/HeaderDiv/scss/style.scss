@@ -1,0 +1,24 @@
+#HeaderDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 60px;
+  min-height: 200px;
+  margin-bottom: -60px;
+
+  background-image: url('/img/imgHeaderSection.jpg');
+  background-position: center;
+  background-size: cover;
+  background-color: var(--bg_card);
+
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+    text-align: center;
+  }
+  .headerContent {
+    color: var(--bg_card);
+  }
+
+}
