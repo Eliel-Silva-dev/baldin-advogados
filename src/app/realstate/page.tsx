@@ -6,7 +6,7 @@ import areasAtuacao from '@/database/AreasAtuacao';
 
 const RealState = () => {
   const realStateData = areasAtuacao.filter(
-    (area) => area.title == 'EMPRESARIAL/SOCIETÁRIO',
+    (area) => area.title == 'IMOBILIÁRIO',
   );
   const activeCard = (el: HTMLElement) => {
     const elPai = el.parentNode as HTMLElement;

@@ -11,7 +11,7 @@ const civilLitigation = () => {
   const activeCard = (el: HTMLElement) => {
     const elPai = el.parentNode as HTMLElement;
     const subTitle = document.querySelectorAll(
-      '.style_min_active_sub__5BiXB',
+      '.style_min_subtitle_litigation__1irgJ',
     ) as NodeList;
 
     if (!elPai.classList.contains('style_min_active_sub__5BiXB')) {
