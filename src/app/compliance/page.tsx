@@ -11,7 +11,7 @@ const Compliance = () => {
   const activeCard = (el: HTMLElement) => {
     const elPai = el.parentNode as HTMLElement;
     const subTitle = document.querySelectorAll(
-      '.style_min_active_sub__iLxft',
+      '.style_min_subtitle_compliance__AvoGq',
     ) as NodeList;
 
     if (!elPai.classList.contains('style_min_active_sub__iLxft')) {
