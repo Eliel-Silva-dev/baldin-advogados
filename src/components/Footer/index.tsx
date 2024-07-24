@@ -22,11 +22,11 @@ const Footer = () => {
   return (
     <footer className={style.footer}>
       <p>
-        <a href="assets/Politica-de-Privacidade.pdf" target="_blank">
+        <a href="assets/politicas-de-privacidade-baldin.pdf" target="_blank">
           Politica de privacidade
         </a>{' '}
         -{' '}
-        <a href="assets/Termos-e-condicoes.pdf" target="_blank">
+        <a href="assets/termos-de-servico-baldin.pdf" target="_blank">
           Termos de uso
         </a>
       </p>

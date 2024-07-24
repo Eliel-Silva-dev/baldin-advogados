@@ -1,9 +1,10 @@
 # Projeto Baldin Advogados
 
 Escritório de advocacia Baldin.
-Site do escritório de advocacia Baldin, com informações sobre o escritório, as areas de atuação e muito mais.
 
-[Visitar site]()
+Site do escritório de advocacia Baldin, com informações sobre o escritório, as areas de atuação e contato com o escritório via formulário e WhatsApp.
+
+[Visitar site](https://baldin-advogados.vercel.app/)
 
 ### Lista com as funcionalidades:
 
@@ -53,9 +54,14 @@ Ferramentas usadas para criar o projeto:
 
 E com as bibliotecas:
 
+- [zod](https://zod.dev/)
 - [eslint](https://eslint.org/)
+- [emailjs](https://www.emailjs.com/)
 - [prettier](https://prettier.io/)
+- [hook-form](https://www.react-hook-form.com/)
 - [react-icons](https://react-icons.github.io/react-icons/)
+- [google-recaptcha](https://www.google.com/recaptcha/about/)
+
 
 ## Próximos passos
 
