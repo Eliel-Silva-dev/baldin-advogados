@@ -2,6 +2,7 @@ import HeaderSection from '@/components/HeaderSection';
 import style from './page.module.css';
 import areasAtuacao from '@/database/AreasAtuacao';
 import Link from 'next/link';
+import ContactSection from '@/components/ContactSection';
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
               </div>
             ))}
         </div>
+        <ContactSection />
       </main>
     </>
   );

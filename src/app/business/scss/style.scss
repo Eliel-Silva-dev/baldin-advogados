@@ -1,5 +1,70 @@
 #main_Business {
+
+  section {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    max-width: 1000px;
+    margin: 10px auto;
+    justify-content: center;
+
+    @media screen and (max-width: 900px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
   h2 {
     font-size: 3rem;
+  }
+  .container_image{
+    max-width: 450px;
+
+    img{
+      width: 100%;
+    }
+  }
+  .container_info{
+    max-width: 450px;
+  }
+  .container_card_business{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+
+    .card_business{
+      border: 1px solid var(--hover);
+    }
+    .subtitle_business{
+      background-color: var(--secondary_color);
+      border-bottom: 1px solid var(--hover);
+      width: 100%;
+
+      h3{
+        color: var(--bg_card);
+        padding: 10px 0;
+        font-size: 1.8rem;
+        padding-left: 5px;
+        cursor: pointer;
+      }
+      &.active_sub {
+        background-color: var(--hover);
+      }
+
+      &.active_sub ~ .message_business {
+        display: block;
+      }
+    }
+
+    .message_business{
+      padding: 5px;
+      display: none;
+      p{
+        font-size: 1.6rem;
+        margin: 10px 0;
+        text-align: justify;
+      }
+    }
   }
 }
