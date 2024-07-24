@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Lgpd from '../Lgpd';
 import style from './style.min.module.css';
+import ButtonWhatsapp from '../buttons/ButtonWhatsapp';
 
 const Footer = () => {
   const [localStorage, setLocalStorage] = useState(true);
@@ -33,6 +34,8 @@ const Footer = () => {
       <p>&#9400; Todos os direitos reservados - {year}</p>
 
       {!localStorage && <Lgpd />}
+
+      <ButtonWhatsapp />
     </footer>
   );
 };

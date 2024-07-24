@@ -1,0 +1,20 @@
+#whats {
+  position: fixed;
+  bottom: 40px;
+  right: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--secondary_color);
+
+  a {
+    display: flex;
+    font-size: 3rem;
+    color: var(--bg_card);
+
+    &:hover {
+      color: rgb(96, 237, 96);
+    }
+  }
+}

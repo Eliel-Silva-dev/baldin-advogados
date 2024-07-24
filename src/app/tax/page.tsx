@@ -3,7 +3,6 @@
 import ContactSection from '@/components/ContactSection';
 import style from './style.min.module.css';
 import areasAtuacao from '@/database/AreasAtuacao';
-import { FaArrowTurnDown } from 'react-icons/fa6';
 
 const Tax = () => {
   const taxData = areasAtuacao.filter((area) => area.title == 'TRIBUTÁRIO');
