@@ -32,6 +32,9 @@ const MenuDesk = () => {
             <li>
               <Link href={'/labor'}>Trabalhista</Link>
             </li>
+            <li>
+              <Link href={'/civillitigation'}>Litigancia</Link>
+            </li>
           </ul>
         </div>
       </li>

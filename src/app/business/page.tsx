@@ -5,6 +5,7 @@ import style from './style.min.module.css';
 import areasAtuacao from '@/database/AreasAtuacao';
 
 const Business = () => {
+  
   const businessData = areasAtuacao.filter(
     (area) => area.title == 'EMPRESARIAL/SOCIETÁRIO',
   );
