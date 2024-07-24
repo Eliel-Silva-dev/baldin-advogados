@@ -5,7 +5,7 @@ import style from './style.min.module.css';
 import areasAtuacao from '@/database/AreasAtuacao';
 
 const Business = () => {
-  
+
   const businessData = areasAtuacao.filter(
     (area) => area.title == 'EMPRESARIAL/SOCIETÁRIO',
   );
@@ -45,7 +45,7 @@ const Business = () => {
                         <h3
                           onClick={(e) => activeCard(e.target as HTMLElement)}
                         >
-                          {infoSub.subTitle}
+                          {infoSub.subTitle} &#8628;
                         </h3>
                       </div>
                       <div className={style.message_business}>

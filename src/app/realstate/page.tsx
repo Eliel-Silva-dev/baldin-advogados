@@ -43,7 +43,7 @@ const RealState = () => {
                         <h3
                           onClick={(e) => activeCard(e.target as HTMLElement)}
                         >
-                          {infoSub.subTitle}
+                          {infoSub.subTitle} &#8628;
                         </h3>
                       </div>
                       <div className={style.message_realState}>
